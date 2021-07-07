@@ -3,14 +3,16 @@
 }
 
 .timer {
-    align-content: center;
+    text-align: center;
+    font-size: 44px;
 }
 
 .timer h1 {
     text-align: center;
 }
 
-.field-holder {
+.field-holder-eight,
+.field-holder-four {
     height: 600px;
     margin: 40px 100px;
 }
@@ -26,9 +28,18 @@
     background-color: darkgray;
 }
 
-.card-holder {
+.field-holder-four .field .card-holder {
     display: block;
     width: 40%;
+    min-width: 180px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.field-holder-eight .field .card-holder {
+    display: block;
+    width: 22%;
     min-width: 180px;
     height: 250px;
     margin: 10px;
