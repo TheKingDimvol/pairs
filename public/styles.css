@@ -1,0 +1,77 @@
+.title {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+    font-size: 44px;
+}
+
+.timer h1 {
+    text-align: center;
+}
+
+.field-holder {
+    min-height: 600px;
+    margin: 20px 80px;
+}
+
+.score-holder {
+    font-size: 36px;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 30px 10px;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: darkgray;
+    perspective: 1000px;
+}
+
+.card-holder {
+    display: block;
+    min-width: 180px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    width: 180px;
+    height: 100%;
+    background-color: darkgreen;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.card img {
+    visibility: hidden;
+    margin-top: 50%;
+}
+
+.rotateAnimation {
+    transform: rotateY(180deg);
+}
+
+.buttons {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons button {
+    display: inline-block;
+    margin: auto;
+    font-size: 30px;
+    padding: 10px 100px;
+}
